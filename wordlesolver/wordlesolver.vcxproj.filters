@@ -20,13 +20,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="words.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="wordlesolver.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="wordBanks\words1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="words1.txt" />
   </ItemGroup>
 </Project>
